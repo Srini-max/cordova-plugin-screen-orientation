@@ -45,16 +45,12 @@
      <custom-config-file platform="ios" target="*-Info.plist" parent="UISupportedInterfaceOrientations" mode="replace"> 
       <array> 
        <string>UIInterfaceOrientationPortrait</string> 
-       <string>UIInterfaceOrientationPortraitUpsideDown</string>
       </array> 
      </custom-config-file> 
      
      <custom-config-file platform="ios" target="*-Info.plist" parent="UISupportedInterfaceOrientations~ipad" mode="replace">
       <array> 
-       <string>UIInterfaceOrientationPortrait</string>
-       <string>UIInterfaceOrientationPortraitUpsideDown</string> 
-       <string>UIInterfaceOrientationLandscapeLeft</string>
-       <string>UIInterfaceOrientationLandscapeRight</string> 
+       <string>UIInterfaceOrientationLandscapeLeft</string> 
       </array>
      </custom-config-file>
      
